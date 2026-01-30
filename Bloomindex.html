@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+ <link rel="stylesheet"href="Bloomstyle.css">
+</head>
+<body>
+  <div class="container">
+   <img src="logo.png" alt="logo">
+   <div class="form">
+     <form>
+     <h3>STUDENT LOGIN</h3>
+     <label for="idnumber">Identity Number:</label>
+      <input type="text" id="idnumber" name="Identity Number" placeholder="Student/Application" required>
+     <label for="psw">Password:</label>
+       <input type="password" id="psw" name="password" placeholder="Password" pattern ="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[%#@+].{8,})" title="must contain a letter (uppercase and lowercase), a number, a symbol at least 8 characters or more" required>
+        <p>Forgot Password?</p>
+     <button type="submit">Login</button>
+     </form>
+    </div>
+      
+     
+  </div>
+</body>
+</html>

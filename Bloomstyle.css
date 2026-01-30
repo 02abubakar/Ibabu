@@ -1,0 +1,65 @@
+body{
+background-image: url("background.jpg");
+
+
+}
+img{
+width:25%; 
+display:block;
+margin:20px auto 20px;
+    
+}
+h3{
+    text-align:center;
+    color: white;
+    border-bottom:1px solid;
+    
+   
+    
+}
+form{
+    background-color:#ff153f82;
+    padding:35px;
+    padding-top:5px;
+    padding-bottom:130px;
+    border-radius:10px;
+    width:210px;
+    height:225px;
+    margin:0px auto 70px; 
+     
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 25px;
+  border: 1px solid #ccc;
+  border-radius:none;
+  
+  
+}
+ p{
+     text-align: right;
+     
+ }
+ button{
+  display:block;
+  width: 227px;
+  padding: 10px;
+  background-color:#000000;
+  color: white;
+  border:none; 
+  cursor: pointer;
+  text-align: center;
+  font-weight:bold;
+  
+}
+
+
+
